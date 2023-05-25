@@ -2,17 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.scrollbar-color {
-  scrollbar-color: rgb(67, 66, 66) transparent;
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.scrollbar-thumb::-webkit-scrollbar-thumb {
-  background-color: rgb(119, 119, 126);
-  border-radius: 2px;
-}
-
-.scrollbar-track::-webkit-scrollbar-track {
-  background: transparent;
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .svgImage {
@@ -21,4 +17,8 @@
 
 .svgImage:hover {
   filter: brightness(200%);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to top, #121212, #121212, #121212, #18181b, #3f3f46);
 }

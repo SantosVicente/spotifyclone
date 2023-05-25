@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div className="w-screen h-screen bg-black">
       <div className="flex">
-<<<<<<< HEAD
         <aside className="w-[17.5vw] h-[90vh]">
           <div className="bg-gray-900 h-[11.5vh] m-2 rounded-md px-6 py-5">
             
@@ -30,30 +29,14 @@ export default function Home() {
 
           </div>
           <div className="h-[77.5vh] bg-gray-900 m-2 rounded-md p-4 overflow-auto scrollbar-color scrollbar-thumb scrollbar-track">
-=======
-        <aside className="w-[14vw] h-[90vh]">
-          <div className="bg-zinc-950 h-[11.5vh] m-2 rounded-md px-8 py-4">
-            <ul>
-              <li>Início</li>
-              <li>Buscar</li>
-            </ul>
-          </div>
-          <div className="h-[76vh] bg-zinc-950 m-2 rounded-md p-4 overflow-auto scrollbar-color scrollbar-thumb scrollbar-track">
->>>>>>> 7cec0bdd167e9ce87ec7f0d0d66034f91cbd3800
             Biblioteca
           </div>
         </aside>
         <div className="w-[86vw] h-[90vh] mt-2 mr-3">
           <header className="fixed h-[7vh] w-full px-8 py-4">
-<<<<<<< HEAD
             <Image src={Arrow} alt="" width={45} height={45}></Image>
           </header>
           <main className="bg-gray-900 h-[90vh] rounded-md pt-[7vh] px-7 overflow-auto scrollbar-color scrollbar-thumb scrollbar-track">
-=======
-            header
-          </header>
-          <main className="bg-zinc-950 h-[88.3vh] rounded-md pt-[7vh] px-7 overflow-auto scrollbar-color scrollbar-thumb scrollbar-track">
->>>>>>> 7cec0bdd167e9ce87ec7f0d0d66034f91cbd3800
             main page
           </main>
         </div>

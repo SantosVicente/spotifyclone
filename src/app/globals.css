@@ -14,7 +14,6 @@
 .scrollbar-track::-webkit-scrollbar-track {
   background: transparent;
 }
-<<<<<<< HEAD
 
 .svgImage {
   transition: all .2s;
@@ -23,5 +22,3 @@
 .svgImage:hover {
   filter: brightness(200%);
 }
-=======
->>>>>>> 7cec0bdd167e9ce87ec7f0d0d66034f91cbd3800

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-color {
+  scrollbar-color: rgb(67, 66, 66) transparent;
+}
+
+.scrollbar-thumb::-webkit-scrollbar-thumb {
+  background-color: rgb(119, 119, 126);
+  border-radius: 2px;
+}
+
+.scrollbar-track::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.svgImage {
+  transition: all .2s;
+}
+
+.svgImage:hover {
+  filter: brightness(200%);
+}

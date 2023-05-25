@@ -1,4 +1,15 @@
 import './globals.css'
+import {
+  Roboto_Flex as Roboto,
+  Bai_Jamjuree as BaiJamjuree,
+} from 'next/font/google'
+
+const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
+const baiJamjuree = BaiJamjuree({
+  subsets: ['latin'],
+  weight: ['700'],
+  variable: '--font-bai-jamjure',
+})
 
 export const metadata = {
   title: 'Spotify Clone',
@@ -12,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-800 text-zinc-50">{children}</body>
+      <body className={`${roboto.variable} ${baiJamjuree.variable} font-rob bg-zinc-800 text-zinc-50`}>{children}</body>
     </html>
   )
 }

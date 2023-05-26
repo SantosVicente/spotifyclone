@@ -45,9 +45,9 @@ export default function RootLayout({
             </aside>
 
             {/*Right container*/}
-            <div className="w-[86vw] bg-gradient h-[90vh] mt-2 mr-3">
+            <div className="w-[86vw] rounded-md bg-gradient h-[90vh] mt-2 mr-3">
               <Header />
-              <main className=" h-[90vh] rounded-md pt-[7vh] px-7 overflow-auto">
+              <main className=" h-[90vh] pt-[7vh] px-7 overflow-auto">
                 {children}
               </main>
             </div>

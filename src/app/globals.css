@@ -4,11 +4,11 @@
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(125, 125, 125, 0.2);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(125, 125, 125, 0.8);
 }
 
 .svgImage {
@@ -21,4 +21,8 @@
 
 .bg-gradient {
   background-image: linear-gradient(to top, #121212, #121212, #121212, #18181b, #3f3f46);
+}
+
+.bg {
+  background-color: #3f3f46;
 }

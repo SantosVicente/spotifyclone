@@ -47,7 +47,7 @@ export default function RootLayout({
             {/*Right container*/}
             <div className="w-[86vw] rounded-md bg-gradient h-[90vh] mt-2 mr-3">
               <Header />
-              <main className=" h-[90vh] pt-[7vh] px-7 overflow-auto">
+              <main className=" h-[90vh] px-7 overflow-auto pb-[10vh]">
                 {children}
               </main>
             </div>

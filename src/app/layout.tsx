@@ -53,7 +53,9 @@ export default function RootLayout({
             </div>
           </div>
           
-          <Footer />
+          <div className="bg-black p-4 flex items-center justify-between fixed b-0 w-full h-[10vh]">
+            <Footer />
+          </div>
         </div>
       </body>
     </html>

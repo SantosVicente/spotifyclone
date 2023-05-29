@@ -32,7 +32,7 @@ export default function Content() {
                 className="absolute rotate-90 w-5 top-[14px] left-4" 
                 src={Player} 
                 alt=""
-                />
+              />
             </div>
           </div>
         </div>

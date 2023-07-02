@@ -12,11 +12,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image1');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image1');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
@@ -43,11 +43,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image2');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image2');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
@@ -72,11 +72,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image3');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image3');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
@@ -101,11 +101,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image4');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image4');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
@@ -130,11 +130,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image5');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image5');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
@@ -159,11 +159,11 @@ export default function Content() {
         <div className="flex items-center font-bold gap-4 bg-zinc-700 bg-opacity-60 w-[30rem] rounded-[4px] hover:bg-zinc-600 transition-colors"
           onMouseEnter={() => {
             const image = document.getElementById('playlist-image6');
-            image.classList.add('opacity-100');
+            image?.classList.add('opacity-100');
           }}
           onMouseLeave={() => {
             const image = document.getElementById('playlist-image6');
-            image.classList.remove('opacity-100');
+            image?.classList.remove('opacity-100');
           }}
         >
           <Image 
